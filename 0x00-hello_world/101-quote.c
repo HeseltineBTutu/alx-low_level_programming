@@ -1,7 +1,3 @@
-/**
- * File: 101-quote.c
- * Auth: Heseltine B Tutu
- */
 #include <unistd.h>
 /**
  * main- Entry point
