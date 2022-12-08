@@ -1,5 +1,8 @@
-#include<stdio.h>
-#include<stdlib.h>
+/**
+ * File: 101-quote.c
+ * Auth: Heseltine B Tutu
+ */
+#include <unistd.h>
 /**
  * main- Entry point
  * Description: program that prints exactly and that piece of art is useful
