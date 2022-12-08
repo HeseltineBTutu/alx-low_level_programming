@@ -1,4 +1,4 @@
-#include<stdio>
+#include<stdio.h>
 /**
  *main -Entry point
  *Descritption: prints with proper grammar, but the outcome is a piece of art
