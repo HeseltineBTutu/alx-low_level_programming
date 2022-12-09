@@ -6,7 +6,7 @@
  *
  * Description: Asign a random number to the value n.
  *
- * REturn:Always 0 (Success)
+ * Return:Always 0 (Success)
  */
 int main(void)
 {
