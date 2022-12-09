@@ -6,13 +6,13 @@
  *
  * Description: print all alphabet letters in lower case
  *
- * Rturn: Always 0(Success)
+ * Return: Always 0(Success)
  *
  */
 int main(void)
 {
 	char ch;
-	
+
 	for (ch = 'A'; ch <= 'Z'; ch++)
 		putchar (tolower(ch));
 	putchar ('\n');
