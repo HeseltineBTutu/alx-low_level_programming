@@ -21,7 +21,6 @@ int main(void)
 		{
 			putchar(x + 'a' - 10);
 		}
-	
 	}
 	putchar('\n');
 	return (0);
