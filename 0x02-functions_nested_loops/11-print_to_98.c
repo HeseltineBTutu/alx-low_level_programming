@@ -3,10 +3,8 @@
 /**
  * print_to_98- entry point
  *
- * @n - natural numbers
+ * @n: natural numbers
  *
- * Description: a function that prints all natural numbers from n to 98,
- * followed by a a new line
  *
  * Return: returns nothing
  *
