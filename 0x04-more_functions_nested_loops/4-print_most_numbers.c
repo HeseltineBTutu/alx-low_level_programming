@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print- print the numbers from 0-9
+ * print_most_numbers- print the numbers from 0-9
  *
  * Return: does not return anything
  *
