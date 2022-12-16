@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * print- print the numbers from 0-9
- * @2: to be skiped
- * @4: to be skiped
+ *
+ * Return: does not return anything
  *
  */
 void print_most_numbers(void)
