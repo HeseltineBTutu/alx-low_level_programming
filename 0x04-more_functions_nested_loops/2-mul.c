@@ -3,7 +3,6 @@
  * mul- a function that multiplies two integers.
  *
  * @a: first integer
- * 
  * @b: second integer
  *
  * Return: return the results of the multiplication
