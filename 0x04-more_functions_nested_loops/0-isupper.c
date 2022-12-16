@@ -1,9 +1,6 @@
-#include<ctype.h>
 #include "main.h"
 /**
- * _isupper- Entry point
- *
- * Description:  a function that checks for uppercase character.
+ * _isupper- Check for uppercase characters
  *
  * @c: letter being tested
  *
