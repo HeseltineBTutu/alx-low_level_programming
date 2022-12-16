@@ -10,8 +10,8 @@ void print_most_numbers(void)
 {
 	int i, num2, num4;
 
-	num2 = 2;
-	num4 = 4;
+	num2 = 50;
+	num4 = 52;
 
 	for (i = 48; i <= 57; i++)
 	{
