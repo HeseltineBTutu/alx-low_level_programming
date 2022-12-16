@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print- print the numbers from 0-9
- *
  * @2: to be skiped
  * @4: to be skiped
  *
