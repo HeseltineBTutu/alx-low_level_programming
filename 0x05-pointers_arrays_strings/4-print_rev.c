@@ -3,7 +3,7 @@
 /**
  * print_rev -prints a string, in reverse, followed by a new line.
  *
- * @s: prints stri to print
+ * @s: prints string to print
  *
  * Return: return string
  *
