@@ -10,7 +10,7 @@
  * Retrun: length
  *
  */
-int _strnlen(char *s)
+int _strlen(char *s)
 {
 	int x;
 
