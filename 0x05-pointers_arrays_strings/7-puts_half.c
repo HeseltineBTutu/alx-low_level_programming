@@ -6,7 +6,7 @@
  *
  * @str: print string
  *
- * Return: nothing
+ * Return:does not return anything
  */
 void puts_half(char *str)
 {
