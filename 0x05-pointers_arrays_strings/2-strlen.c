@@ -7,7 +7,7 @@
  *
  * @s: modify s
  *
- * Retrun: length
+ * Return: length
  *
  */
 int _strlen(char *s)
