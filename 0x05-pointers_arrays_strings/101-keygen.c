@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -10,10 +10,8 @@
 int main(void)
 {
 	srand(time(NULL));
-
-	int i;
-
-	for (i = 0; i < PASSWORD_LENGTH; i++)
+	
+	for (int i = 0; i < PASSWORD_LENGTH; i++)
 	{
 		printf("%c", 'a' + rand() % 26);
 	}
