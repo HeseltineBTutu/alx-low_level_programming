@@ -23,5 +23,5 @@ int _atoi(char *s)
 		else if (result > 0)
 			break;
 	}
-	return sign * resut=lt;
+	return sign * result;
 }
