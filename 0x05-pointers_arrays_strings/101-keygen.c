@@ -9,10 +9,10 @@
  */
 int main(void)
 {
-	srand(time(NULL));
-
 	int i;
-
+	
+	srand(time(NULL));
+	
 	for (i = 0; i < PASSWORD_LENGTH; i++)
 	{
 		printf("%c", 'a' + rand() % 26);
