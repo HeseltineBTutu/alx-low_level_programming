@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _memset(char *s, char b, unsigned int n)- entry point
+ * _memset- entry point
  *
  * @s:a pointer to the memory block that you want to fill withe given value.
  *
