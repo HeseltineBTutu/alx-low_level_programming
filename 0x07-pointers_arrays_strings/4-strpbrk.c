@@ -11,9 +11,11 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
+	char *a = accept;
+
 	for (; *s; ++s)
 	{
-		for (char *a = accept; *a; ++a)
+		for (; *a; ++a)
 		{
 			if (*s == *a)
 			{
