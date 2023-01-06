@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _sqrt_- returns squareroot
+ * _sqrt- returns squareroot
  *
  * @n: the number.
  * @i: value to be tested
  *
  * Return: returns the natural sqauare root of a number.
- */			
+ */
 int _sqrt(int n, int i)
 {
 	if (n < 0)
