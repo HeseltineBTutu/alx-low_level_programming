@@ -12,8 +12,6 @@ int _sqrt_recursion(int n)
 }
 			
 int _sqrt(int n, int i)
-{
-	int root;
 	if (n < 0)
 	{
 		return (-1);
