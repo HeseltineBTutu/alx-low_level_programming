@@ -8,6 +8,7 @@
  * Return: returns the natural sqauare root of a number.
  */			
 int _sqrt(int n, int i)
+{
 	if (n < 0)
 	{
 		return (-1);
