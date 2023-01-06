@@ -8,11 +8,13 @@
  */
 int _sqrt_recursion(int n)
 {
+	int guess = n / 2;
+
 	if (n < 0)
 	{
 		return (-1);
 	}
-	int guess = n / 2;
+
 	if (guess * guess == n)
 	{
 		return (guess);
