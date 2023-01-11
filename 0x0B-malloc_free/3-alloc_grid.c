@@ -7,6 +7,8 @@
  * @width: width of the grid
  * @height: height of the grid
  *
+ * Return: a pointer to a 2 dimensional array of integers
+ *
  */
 int **alloc_grid(int width, int height)
 {
@@ -22,5 +24,6 @@ int **alloc_grid(int width, int height)
 	{
 		grid[i] = (int *)calloc(width, sizeof(int));
 	}
+	free(grid);
 	return (grid);
 }
