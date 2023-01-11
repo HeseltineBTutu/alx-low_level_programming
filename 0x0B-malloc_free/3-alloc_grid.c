@@ -24,6 +24,5 @@ int **alloc_grid(int width, int height)
 	{
 		grid[i] = (int *)calloc(width, sizeof(int));
 	}
-	free(grid);
 	return (grid);
 }
