@@ -14,8 +14,8 @@ char *str_concat(char *s1, char *s2)
 {
 	char *result;
 
-	size_t len1 = s1 strlen(s1) : 0;
-	size_t len2 = s2 strlen(s2) : 0;
+	size_t len1 = s1 ? strlen(s1) : 0;
+	size_t len2 = s2 ? strlen(s2) : 0;
 	/*+1 for the zero-terminator('\0')*/
 	result = (char *)malloc(len1 + len2 + 1);
 	if (result == NULL)
