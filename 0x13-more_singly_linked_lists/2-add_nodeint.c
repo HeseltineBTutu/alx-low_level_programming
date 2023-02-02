@@ -5,6 +5,8 @@
  *		linked list.
  * head: a pointer to the head of a linked list.
  *
+ * @n: The integer for the new node to contain.
+ *
  * Return: the address of the new element,
  *	Otherwise return NULL if it fails.
  */
