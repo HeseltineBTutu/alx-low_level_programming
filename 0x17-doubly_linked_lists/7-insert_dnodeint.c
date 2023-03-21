@@ -4,11 +4,13 @@
  * @h: Pointer to the head of the list.
  * @idx: Index of the position to insert the new node, starting from 0.
  * @n: Data of the new node.
+ *
  * Return: Pointer to the new node, or NULL if it could not be inserted.
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new_node, *current = *h;
+
 	unsigned int count = 0;
 
 	if (h == NULL)
