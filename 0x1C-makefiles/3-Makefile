@@ -2,11 +2,14 @@ CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
-# Dependency rule
-%.o: %.c
-	$(CC) -c -o $@ $<
+RM = rm -f
+
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 clean:
-	rm -f $(OBJ) $(NAME) *.elc *.swp
-re: clean all
+	$(RM) *~ $(NAME)
+oclean:
+	$(RM) $(OBJ)
+fclean: clean oclean
+
+re: fclean all
